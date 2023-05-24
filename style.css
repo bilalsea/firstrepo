@@ -1,0 +1,164 @@
+body{
+    background-color:hsl(180, 100%, 30%);
+}
+
+/* --------------- Navgation Bar---------------------- */
+img.logo{
+    position: fixed;
+    left: 100px;
+    top: 20px;
+    padding: 10;
+    display: block;
+}
+
+div.navigation{
+    background-color: hsl(0, 0%, 65%);
+    width: 200px;
+    float: left;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    /* border-bottom: 5px,5px,5px,0px; */
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    
+    }
+
+.nav-Anchor{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+div.navigation:hover{
+    background-color: hsl(180, 100%, 30%);
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: hsl(24, 100%, 45%);
+
+}    
+
+div.nav-margin{
+
+    position: fixed;
+    left: 400px;
+    top: 40px;
+
+    }
+
+nav.header{
+    background-color: lightgray;
+    width: 1450px;
+    height: 120px;
+    position: fixed;
+    left: 30px;
+}
+    /* --------------- Navgation Bar Ended---------------------- */
+
+
+
+    /* ----------------------Bikes Pics Section ------------------ */
+div.imageContainer{
+    background-color: white;
+    width: 1450px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 23px;
+    /* padding-right: 1px;
+    padding-left: 1px; */
+}
+
+img.honda70{
+        margin-left: -130px;
+}
+
+img.metroLeft{
+    margin-left: -350px;
+}
+
+img.metroRight{
+    margin-left: -350px;
+}
+
+img.cycle{
+    margin-left: -30px;
+    
+}
+
+img.hondaMiddle{
+    margin-left: -290px;
+}
+
+
+img.hondaRight{
+    margin-left: -270px;
+    
+}
+/* ----------------------Bikes Pics Section Ended ------------------ */
+
+
+/* ----------------------Bikes Brands Section------------------ */
+div.logo{
+    background-color: white;
+    width: 1450px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+img.suzuki{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+
+img.honda{
+    margin-left: 50px;
+}
+
+img.yamaha{
+    margin-left: 50px;
+}
+
+img.metro{
+    margin-left: 50px;
+}
+
+img.united{
+    margin-left: 50px;
+}
+
+img.superPower{
+    margin-left: 50px;
+}
+/* ----------------------Bikes Brands Section Ended ------------------ */
+
+div.BikesContent{
+    background-color: white;
+    width: 1030px;
+    height: 250px;
+    margin-top: -290px;
+    margin-left: 400px;
+    padding: 20px;
+}
+
+footer{
+    background-color: hsl(30, 100%, 45%);
+    width: 1440px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    /* padding: 20px; */
+}
+
+footer>div{
+    width: 250px;
+    /* float: left;  */
+    display: inline-block;
+    padding: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+
